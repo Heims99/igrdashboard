@@ -1,0 +1,606 @@
+/*==================================================
+    Default Values
+    Font Family : Roboto Condensed 
+    
+    NGF Green Color: #058004
+    NGF Red Color:#D02821
+    NGF Lemon Green Color:#81FF00
+    NGF Black Color:#0000
+    NGF White Color:#ffff
+
+
+
+===================================================*/
+
+
+/* Global CSS */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    /*font-family: "Roboto Condensed", sans-serif;*/
+    font-family: 'Playfair Display SC', serif;
+    color: #058004;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #058004;
+}
+
+p {
+    color: #141823;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Georgia, sans-serif;
+}
+
+h2 {
+    color: #058004;
+}
+
+
+/*==================================================
+               Home Section 
+===================================================*/
+
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    height: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-contentbox-inner {
+    display: table-cell;
+    vertical-align: middle;
+    /*text-align: center;*/
+}
+
+#home-heading h3 {
+    color: #058004;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+}
+
+
+/*==================================================
+              Golobal Parallax effects 
+===================================================*/
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#IGR-content h4 {
+    color: #141823;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 20px 0 20px 0;
+    font-family: Georgia, sans-serif;
+}
+#IGR-content{
+    padding-bottom: 0;
+}
+
+
+/*==================================================
+               Buttons(Global) 
+===================================================*/
+
+.btn-general {
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 0;
+    
+}
+
+
+
+/*==================================================
+content box css
+===================================================*/
+
+.content-box {
+    padding: 60px 0 60px 0;
+}
+
+.content-title h3 {
+    font: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 5px 0 30px 0;
+    color: #058004;
+}
+
+.content-title h2 {
+    font-size: 30px;
+    color: #058004;
+}
+
+.service-item-title h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10xp 0;
+    color: #058004;
+}
+
+.content-title-underline {
+    width: 100px;
+    height: 3px;
+    background-color: #058004;
+    margin: 0 auto 1px auto;
+}
+
+
+
+/*==================================================
+              Framework  Css
+===================================================*/
+.content-frame-underline h2{
+    color: #fff;
+    font-size: 15px;
+    padding: 0;
+    text-align:right;
+    margin-left: 0;
+    float: left;
+}
+.content-frame-underline {
+    width: 100%;
+    height: auto;
+    background-color: #058004;
+    padding-top: 5px;
+   border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    
+    
+}
+.service-frame-desc p{
+    float: left;
+    padding-left: 10px, solid #fff;
+    margin: 0;
+    text-align: justify;
+    margin-bottom: 50px;
+    
+}
+
+/*==================================================
+              Services Css
+===================================================*/
+
+.service-item {
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.service-item-icon {
+    color: #D02821;
+    float: left;
+    padding: 5px;
+    margin-right: 40;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+.service-item:hover .service-item-icon i {
+    color: #ffff;
+    background-color: #058004;
+}
+
+.service-item-desc p {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+
+/*==================================================
+              About Css
+===================================================*/
+
+#about-bg-diagonal {
+    width: 60%;
+    height: 600px;
+    float: right;
+    background-image: url("../img/backcover4.jpg");
+    border-left: 200px solid white;
+    border-top: 700px solid transparent;
+}
+
+#about-content-box {
+    float: left;
+    height: 700px;
+    
+}
+
+#about-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#about-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#about .content-title h3 {
+    text-align: left;
+}
+
+#about .content-title .content-title-underline {
+    margin: 0 0 30px 0;
+}
+
+#about-desc p {
+    text-align: justify;
+    font-weight: 400;
+    margin-bottom: 30;
+}
+
+
+/*==================================================
+            Theory of change css
+===================================================*/
+
+#framework-cover {
+    padding-top: 70px;
+}
+
+#Framework .content-box {
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #fff;
+}
+
+#Dash-framework {
+    padding: 50px 0;
+
+    
+    
+}
+
+.Framework img {
+    background-size: 100%;
+    max-height: 400px;
+    margin: 0 auto 0 auto;
+}
+
+
+.Framework blockquote {
+    border: 0;
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+    padding: 6px 15px;
+}
+
+
+
+
+/*==================================================
+         |||||   Footer css |||||||||
+===================================================*/
+
+#footer-bottom {
+    background-color: #058004;
+    padding: 10px 0;
+}
+
+#footer-copyrights p {
+    font-family: Georgia, sans-serif;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+}
+/*==================================================
+           Navigation bar
+===================================================*/
+
+.navbar {
+    padding: 0;
+}
+
+.IGR-top-nav {
+    background: rgba(0, 0, 0,0);
+}
+IGR-nav-wrapper{
+    
+    padding: 0 85px;
+}
+
+.navbar-nav {
+    float:right;
+    
+}
+.navbar-nav > li > a {
+    color: #058004;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Georgia, sans-serif;
+    font-weight: 700;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    background: none;
+    color: red;
+}
+.navbar-toggle {
+    background: rgba(0,0,0, 0.1);
+    border: 1px solid #058004;
+    border-radius: 0;
+  
+}
+.navbar-toggle .icon-bar{
+    
+    background-color: #058004;
+}
+
+/*==================================================
+          Theory of change css
+===================================================*/
+
+.cover-col{
+    background-color: #E00933;
+    background-size: cover;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    margin-left:50px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 370px;
+    height: 460px;
+
+    
+}
+
+.service-frame-desc2{
+    background-color:#fff;
+    background-size: cover;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    font-size: 16px;
+   padding: 10px;
+    margin-top: 10px;
+    
+}
+.service-frame-desc2 p{
+    font-size: 16px;
+    text-align:justify-all;
+    font-weight: 400px;
+}
+
+.service-item-icon2{
+    color: #fff;
+    float: right;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    width: 60px;
+    height: 60px;
+    text-align: justify;
+    
+}
+.service-item-title2 h2{
+text-align: center;
+ font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10xp 0;
+    color: #fff;
+    
+}
+/*==================================================
+          Theory of change - col 2 css
+===================================================*/
+
+.cover-col2{
+    background-color: #06D9D6;
+    background-size: cover;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    margin-left:50px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 370px;
+    height: 460px;
+
+    
+}
+
+.service-frame-desc3{
+    background-color:#fff;
+    background-size: cover;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 40px;
+    font-size: 16px;
+    padding: 10px; 
+    margin-top: 30px;
+}
+.service-frame-desc3 p{
+    font-size: 16px;
+    text-align:justify-all;
+    font-weight: 400px;
+}
+
+.service-item-icon3{
+    color: #fff;
+    float: right;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    width: 60px;
+    height: 60px;
+    text-align: justify;
+    
+}
+.service-item-title3 h2{
+text-align: center;
+ font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10xp 0;
+    color: #fff;
+}
+
+/*==================================================
+         Theory of change-col3 css
+===================================================*/
+
+.cover-col3{
+    background-color: #87C202;
+    background-size: cover;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    margin-left:50px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 370px;
+    height: 460px;
+
+    
+}
+
+.service-frame-desc4{
+    background-color:#fff;
+    background-size: cover;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    font-size: 16px;
+   padding: 10px;
+    margin-top: 25px;
+    
+}
+.service-frame-desc4 p{
+    font-size: 16px;
+    text-align:justify-all;
+    font-weight: 400px;
+}
+
+.service-item-icon4{
+    color: #fff;
+    float: right;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    width: 60px;
+    height: 60px;
+    text-align: justify;
+    
+}
+.service-item-title4 h2{
+text-align: center;
+ font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10xp 0;
+    color: #fff;
+}
+
+
+
+/*==================================================
+          Theory of change -col4 css
+===================================================*/
+
+.cover-col4{
+    background-color: #2D4052;
+    background-size: cover;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    margin-left:50px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 370px;
+    height: 460px;
+
+    
+}
+
+.service-frame-desc5{
+    background-color:#fff;
+    background-size: cover;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    font-size: 16px;
+   padding: 10px;
+    margin-top: 120px;
+    
+}
+.service-frame-desc5 p{
+    font-size: 16px;
+    text-align:justify-all;
+    font-weight: 400px;
+}
+
+.service-item-icon5{
+    color: #fff;
+    float: right;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    width: 60px;
+    height: 60px;
+    text-align: justify;
+    
+}
+.service-item-title5 h2{
+text-align: center;
+ font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10xp 0;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

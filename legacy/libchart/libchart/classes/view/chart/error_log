@@ -1,0 +1,5 @@
+[30-Sep-2022 17:03:05 UTC] PHP Fatal error:  Class 'Chart' not found in /home/nggovern/public_html/igrdashboard/libchart/libchart/classes/view/chart/PieChart.php on line 25
+[30-Sep-2022 17:03:05 UTC] PHP Fatal error:  Class 'Chart' not found in /home/nggovern/public_html/igrdashboard/libchart/libchart/classes/view/chart/BarChart.php on line 25
+[30-Sep-2022 17:03:05 UTC] PHP Fatal error:  Class 'BarChart' not found in /home/nggovern/public_html/igrdashboard/libchart/libchart/classes/view/chart/LineChart.php on line 25
+[30-Sep-2022 17:03:05 UTC] PHP Fatal error:  Class 'BarChart' not found in /home/nggovern/public_html/igrdashboard/libchart/libchart/classes/view/chart/VerticalBarChart.php on line 25
+[30-Sep-2022 17:03:05 UTC] PHP Fatal error:  Class 'BarChart' not found in /home/nggovern/public_html/igrdashboard/libchart/libchart/classes/view/chart/HorizontalBarChart.php on line 25

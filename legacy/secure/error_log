@@ -1,0 +1,12 @@
+[27-Jul-2021 08:51:24 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/nggovern/public_html/igrdashboard/secure/login.php on line 14
+[27-Jul-2021 08:51:24 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/nggovern/public_html/igrdashboard/secure/login.php on line 14
+[27-Jul-2021 08:51:24 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/nggovern/public_html/igrdashboard/secure/login.php on line 18
+[27-Jul-2021 08:51:24 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/nggovern/public_html/igrdashboard/secure/login.php on line 18
+[27-Jul-2021 08:51:24 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/nggovern/public_html/igrdashboard/secure/login.php on line 18
+[27-Jul-2021 08:51:24 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/nggovern/public_html/igrdashboard/secure/login.php on line 19
+[27-Jul-2021 08:51:24 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/nggovern/public_html/igrdashboard/secure/login.php on line 19
+[27-Jul-2021 08:51:24 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/nggovern/public_html/igrdashboard/secure/login.php on line 19
+[27-Jul-2021 08:51:24 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/nggovern/public_html/igrdashboard/secure/login.php on line 21
+[27-Jul-2021 08:51:24 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/nggovern/public_html/igrdashboard/secure/login.php on line 23
+[27-Jul-2021 08:51:24 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/nggovern/public_html/igrdashboard/secure/login.php on line 24
+[27-Jul-2021 08:51:24 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home/nggovern/public_html/igrdashboard/secure/login.php on line 31

@@ -1,0 +1,172 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background: #F6F6F6;
+}
+
+*,*:focus{
+    font-family: "Poppins", sans-serif;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin: 100px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-deck .card {
+    min-width: 220px;
+    margin: 10px 0;
+}
+
+.chart-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.header_logo{
+    width: 190px;
+}
+
+.navbar-nav{
+    gap: 10px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #07803E;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+.navbar{
+    padding: 20px 30px;
+}
+
+.green{
+    color: #0D803F;
+}
+
+.bg_light_green{
+    background: #F5FFFA;
+}
+
+.card-deck{
+    gap: 15px    
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+}
+
+.card.blue .card-text {
+    background: #151D48;
+}
+
+
+table.blue thead tr th{
+    background: #E9ECFF;
+}
+
+.card.blue {
+    background: #E9ECFF;
+    color: #151D48;
+}
+
+.card.red {
+    background: #FFEEEE;
+    color: #991313;
+}
+
+table.red thead tr th{
+    background: #FFEEEE;
+}
+
+.card.red .card-text {
+    background: #991313;
+}
+
+
+.card.yellow {
+    background: #FDF6D8;
+    color: #232323;
+}
+
+table.yellow thead tr th{
+    background: #FDF6D8;
+}
+
+.card.yellow .card-text {
+    background: #5B4B05;
+}
+
+
+.card.green {
+    background: #E9FFF2;
+    color: #0D803F;
+}
+
+
+table.green thead tr th{
+    background: #E9FFF2;
+}
+
+.card.green .card-text {
+    background: #0D803F;
+}
+
+.card-text {
+    font-size: 14px;
+    padding: 13px;
+    color: #fff;
+}
+
+.card-title{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #0D803F;
+    border-color: #0D803F;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #991313;
+    border-color: #991313;
+}
+
+.table_name {
+    text-align: left;
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.text-danger{
+    color: #991313 !important
+}
+
+.text-warning{
+    color: #5B4B05 !important;
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1200px;
+    }
+}
+
+.container:last-of-type{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,131 @@
+[{
+    text:'Assessment Questionnaire',
+    children:[{
+        text:'Tax Administration',
+        id:'survey',
+		href:'ngf_survey/page1_form.php',
+        leaf:true
+    },{
+	text:'Tax Procedures',
+        id:'survey1',
+		href:'ngf_survey/page2_form.php',
+        leaf:true
+    },{
+	text:'Tax Processing',
+        id:'survey2',
+		href:'ngf_survey/page3_form.php',
+        leaf:true
+    },{
+	text:'Tax Enforcement',
+        id:'survey3',
+		href:'ngf_survey/page4_form.php',
+        leaf:true
+    },{
+        text:'View/Edit Submissions',
+        id:'view',
+		href:'ngf_survey/submitted_view.php',
+        leaf:true
+    },{
+        text:'View Completed Submissions',
+        id:'complete',
+		href:'ngf_survey/completed_view.php',
+        leaf:true
+    },{
+        text:'View/Download Tax Admin Collation',
+        id:'report1',
+		href:'ngf_survey/tax_admin_report.php',
+        leaf:true
+    },{
+        text:'View/Download Tax Procedures Collation',
+        id:'report2',
+		href:'ngf_survey/tax_proc_report.php',
+        leaf:true
+    },{
+        text:'View/Download Tax Processing Collation',
+        id:'report3',
+		href:'ngf_survey/tax_pross_report.php',
+        leaf:true
+    },{
+        text:'View/Download Tax Enforcement Collation',
+        id:'report4',
+		href:'ngf_survey/tax_enfor_report.php',
+        leaf:true
+    }]
+
+},{
+    text:'Monthly Data',
+    children:[{
+        text:'Update Monthly Data',
+        id:'sector',
+		href:'ngf_survey/annex.php',
+        leaf:true
+    },{
+        text:'View/Edit Submissions',
+        id:'org',
+		href:'ngf_survey/submitted_view_annex.php',
+        leaf:true
+    },{
+        text:'View Completed Submissions',
+        id:'conplete',
+		href:'ngf_survey/conpleted_view.php',
+        leaf:true
+    }]
+
+},{
+    text:'Uploads',
+    children:[{
+        text:'Upload FAAC Data',
+        id:'upload',
+		href:'upload_igr/import.php',
+        leaf:true
+    },{
+        text:'View/Edit Submissions',
+        id:'edit',
+		href:'ngf_survey/submitted_view_faac.php',
+        leaf:true
+    },{
+        text:'Upload Files',
+        id:'file',
+		href:'statefiles/index.php',
+        leaf:true
+    },{
+        text:'Delete Uploaded Files',
+        id:'remove',
+		href:'statefiles/remove_file.php',
+        leaf:true
+    }]
+
+},{
+    text:'User Management',
+    children:[{
+        text:'Create User',
+        id:'createUser',
+		href:'register.php',
+        leaf:true
+    },
+	{
+        text:'Users',
+        id:'viewUser',
+		href:'ViewUser.php',
+        leaf:true
+		},
+		{
+        text:'Change Password',
+        id:'changePassword',
+		href:'ChangePassword.php',
+        leaf:true
+		},
+		{
+        text:'Create User Type',
+        id:'createUserType',
+		href:'',
+        leaf:true},{
+        text:'User Types',
+        id:'viewUserType',
+		href:'ViewUserType.php',
+        leaf:true},{
+        text:'User Activity',
+        id:'viewUserActivity',
+		href:'ViewUserActivity.php',
+        leaf:true}]
+}]

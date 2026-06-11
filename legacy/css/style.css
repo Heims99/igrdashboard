@@ -1,0 +1,250 @@
+@charset "UTF-8";
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	background-color: #FFF;
+}
+.taxadmin {
+	color: #FFFFFF;
+	background-color: #943100;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #943100;
+}
+.taxprocedure {
+	color: #fff;
+	background-color: #F30;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #F30;
+}
+.taxprocessing {
+	color: #fff;
+	background-color: #066;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #066;
+}
+.taxenforcement {
+	color: #fff;
+	background-color: #06C;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #06C;
+}
+.taxawareness {
+	color: #fff;
+	background-color: #906;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #906;
+}
+.taxcompliants {
+	color: #fff;
+	background-color: #663;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #663;
+}
+.taxdoubletax {
+	color: #fff;
+	background-color: #90C;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #90C;
+}
+.overall {
+	color: #fff;
+	background-color: #000;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #000;
+}
+.outer_table {
+	border: thin solid #999;
+	padding: 2px;
+}
+h5 {
+}
+.inner_table {
+	padding: 3px;
+	border: thin dashed #9C6;
+}
+.status_table {
+	padding: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.status_table td {
+	padding: 4px;
+	font-size: 9px;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #CCC;
+}
+a {
+	color: #063;
+	text-decoration: none;
+}
+a:hover {
+	color: #C60;
+	text-decoration: none;
+}
+.menu_link {
+	text-decoration: none;
+	margin: 1px;
+	padding: 12px;
+}
+.menu_link a {
+	text-decoration: none;
+	margin: 1px;
+	padding: 12px;
+	color: #333;
+}
+.menu_link a:hover {
+	text-decoration: none;
+	margin: 1px;
+	padding: 12px;
+	color: #92C73E;
+}
+.myfooter {
+	font-size: 9px;
+	color: #093;
+	text-align: center;
+}
+.menu_link a.active {
+	text-decoration: none;
+	margin: 1px;
+	padding: 15px;
+	color: #C60;
+}
+h3 {
+	font-size: small;
+	color: #363;
+	padding: 0px;
+}
+.status_tr {
+	border: 1px solid #CCC;
+	font-size: xx-small;
+}
+th {
+	font-size: x-small;
+	font-weight: normal;
+	background-color: #333;
+	color: #FFF;
+}
+h4 {
+	font-size: smaller;
+}
+h5 {
+}
+.mytopmenunew {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	margin: 1px;
+	padding: 12px;
+}
+.mytopmenunew a {
+	text-decoration: none;
+	margin: 1px;
+	padding: 12px;
+	color: #0C7F40;
+	font-weight: bolder;
+}
+.mytopmenunew a:hover {
+	text-decoration: none;
+	margin: 1px;
+	padding: 12px;
+	color: #92C73E;
+}
+.mytopmenunew a.active {
+	text-decoration: none;
+	margin: 1px;
+	padding: 15px;
+	color: #C60;
+}
+.mytopmenu {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	margin: 1px;
+	padding: 12px;
+}
+.mytopmenu a {
+	text-decoration: none;
+	margin: 1px;
+	padding: 12px;
+	color: #633A3D;
+}
+.mytopmenu a:hover {
+	text-decoration: none;
+	margin: 1px;
+	padding: 12px;
+	color: #92C73E;
+}
+.mytopmenu a.active {
+	text-decoration: none;
+	margin: 1px;
+	padding: 15px;
+	color: #C60;
+}
+.mytopmenuhelp {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	margin: 1px;
+	padding: 10px;
+}
+.mytopmenuhelp a {
+	text-decoration: none;
+	margin: 1px;
+	padding: 10px;
+	color: #0033CC;
+}
+.mytopmenuhelp a:hover {
+	text-decoration: none;
+	margin: 1px;
+	padding: 10px;
+	color: #0066CC;
+}
+.mytopmenuhelp a.active {
+	text-decoration: none;
+	margin: 1px;
+	padding: 13px;
+	color: #C60;
+}
+.right_align_line {
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #D0D0D2;
+}
